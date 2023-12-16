@@ -1,0 +1,657 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Jost', sans-serif;
+}
+
+body
+{
+    width: 1440px;
+    height: 4162px;
+
+    margin:0 auto;
+}
+
+header
+{
+    background-image: url("img/Header_Background.png");
+    width: 1440px;
+    height: 702px;
+}
+
+.logo
+{
+    display: flex;
+    gap: 10px;
+}
+
+.logo p
+{
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+#menu
+{
+    display: flex;
+    padding-top: 28px;
+    justify-content: space-between;
+
+}
+
+#menu .logo
+{
+    margin-left: 120px;
+}
+
+#menu ul
+{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    margin-right: 17px;
+}
+
+#menuIcons
+{
+    margin-right: 90px;
+}
+
+#menuIcons svg
+{
+    padding-right: 31px;
+}
+
+#menu a
+{
+    text-decoration: none;
+
+    color: rgba(29, 31, 35, 0.70);
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#mainInfo
+{
+    margin-top: 141px;
+}
+
+#mainInfo h1
+{
+    color: #1D1F23;
+    text-align: center;
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+#mainInfo h1 span
+{
+    color: #F6973F;
+}
+
+#mainInfo p
+{
+    color: #1D1F23;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 10px;
+}
+
+#mainInfo button
+{
+    display: block;
+    margin: 20px auto 0;
+
+    width: 177px;
+    height: 58px;
+    border: none;
+
+    border-radius: 50px;
+    background: #F6973F;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+#topCatalogue
+{
+    margin-top: -163px;
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+
+.catalogueItemUpperBackground
+{
+    border-radius: 20px 20px 0px 0px;
+    width: 268px;
+    height: 239px;
+    background: #FAFAFA;
+}
+
+.catalogueItemBottomBackground
+{
+    width: 268px;
+    height: 202px;
+    background: white;
+}
+
+.catalogueItem img
+{
+    display: block;
+    margin: -485px auto auto;
+}
+
+.catalogueItem h4
+{
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+
+    margin-top: 1px;
+    margin-left: 21px;
+}
+
+.catalogueItemType
+{
+    color: #8D8D8D;
+    font-family: Jost;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+.catalogueItemPrice
+{
+    display: flex;
+}
+
+.catalogueItemPrice div
+{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 22px;
+}
+
+.price
+{
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 3px;
+}
+
+.dollar
+{
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.catalogueItemPrice button
+{
+    width: 49px;
+    height: 49px;
+
+    border-radius: 31px;
+    background: #F79D4B;
+    border: none;
+
+    margin-left: 123px;
+    margin-top: 27px;
+}
+
+.catalogueItemPrice button svg
+{
+    margin-top: 5px;
+}
+
+.swipeButton
+{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 26px;
+    background: #FFF;
+    box-shadow: 0px 7px 20px 0px rgba(0, 0, 0, 0.06);
+
+    border: none;
+}
+
+.swipeButton svg
+{
+    margin-top: 5px;
+
+}
+
+#swipeButtons
+{
+    display: flex;
+    gap: 1150px;
+    justify-content: center;
+
+    margin-top: -214px;
+    margin-bottom: 210px;
+}
+
+#advantages
+{
+    display: flex;
+    margin-top: 272px;
+    margin-left: 120px;
+}
+
+#advantagesBlocks
+{
+    display: grid;
+    grid-template-columns: 310px 310px;
+    grid-template-rows: 258px 258px;
+}
+
+.advantage
+{
+    width: 230px;
+}
+
+.advantage h3
+{
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.advantage p
+{
+    color: rgba(29, 31, 35, 0.70);
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 4px;
+}
+
+#advantages img
+{
+    margin-top: -2px;
+    margin-left: 93px;
+}
+
+#advantages button
+{
+    width: 184px;
+    height: 58px;
+
+    border-radius: 50px;
+    background: #EF4358;
+    border: none;
+
+    margin-top: -10px;
+}
+
+#advantages button
+{
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+#bottomCatalogueHeader
+{
+    margin-top: 97px;
+    text-align: center;
+}
+
+#bottomCatalogueHeader h1
+{
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    width: 717px;
+    margin: auto;
+}
+
+#bottomCatalogueHeader p
+{
+    color: rgba(29, 31, 35, 0.70);
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 535px;
+    margin: 10px auto auto;
+}
+
+#bottomCatalogueHeader ul
+{
+    list-style-type: none;
+    display: flex;
+    gap: 49px;
+    justify-content: center;
+
+    margin-top: 70px;
+}
+
+#bottomCatalogueHeader a
+{
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+#selectedNav
+{
+    width: 122px;
+    height: 45px;
+
+    border-radius: 50px;
+    background: #1D1F23;
+
+    margin-top: -10px;
+    margin-right: -25px;
+
+    display: table;
+}
+
+#selectedNav a
+{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#bottomCatalogue
+{
+    display: grid;
+    grid-template-columns: 268px 268px 268px 268px;
+    grid-template-rows: 442px 442px;
+    grid-gap: 65px 42px;
+
+    justify-content: center;
+
+    margin-top: 96px;
+}
+
+#reviews
+{
+    background-image: url("img/Reviews_Background.png");
+    width: 1440px;
+    height: 602px;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 57px;
+}
+
+.reviewer
+{
+    display: flex;
+    margin-top: 50px;
+}
+
+#reviews h1
+{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-top: 235px;
+}
+
+.reviewer h4
+{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-left: 16px;
+}
+
+.reviewerPresentation
+{
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Jost;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 5px;
+    margin-left: 16px;
+}
+
+.reviewText
+{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 383px;
+    margin-top: 15px;
+}
+
+#reviewsContent
+{
+    margin-left: 120px;
+    margin-top: -110px;
+}
+
+#reviewsImage
+{
+    margin-right: 120px;
+    margin-top: 70px;
+}
+
+#reviews nav
+{
+    margin-top: 30px;
+}
+
+#reviews nav button
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 90px;
+    border: none;
+}
+
+#reviews nav button svg
+{
+    margin-top: 5px;
+}
+
+#reviews nav button:nth-child(1)
+{
+    background: #313136;
+}
+
+#reviews nav button:nth-child(2)
+{
+    background: #EF4358;
+    margin-left: 15px;
+}
+
+#contacts
+{
+    width: 1440px;
+    height: 338px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacts button
+{
+    width: 201px;
+    height: 60px;
+
+    border-radius: 50px;
+    background: #F6973F;
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-top: 142px;
+    margin-right: 135px;
+}
+
+#contacts h1
+{
+    width: 727px;
+
+    color: #1D1F23;
+    font-family: Jost;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-left: 120px;
+    margin-top: 102px;
+}
+
+footer
+{
+    width: 1440px;
+    height: 113px;
+    background: #19191B;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .logo
+{
+    margin-left: 121px;
+    margin-top: 5px;
+}
+
+footer .logo p
+{
+    color: #FFF;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+footer nav ul
+{
+    list-style-type: none;
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+
+    margin-top: 5px;
+    margin-left: 115px;
+}
+
+footer a
+{
+    color: #FFF;
+    text-align: center;
+    font-family: Jost;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+#copyright
+{
+    color: #FFF;
+    text-align: right;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.5px;
+
+    margin-top: 5px;
+    margin-right: 116px;
+}
